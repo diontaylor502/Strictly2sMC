@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: cursive;
+    color: lightgrey;
+    background-color: black;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+p {
+    margin: 0.5em 0 0.5em 0;
+    background-color: red;
+    font-size: 1em;
+    padding: 10px;
+}
+
+header{
+    display:block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    padding: 10px;
+}
+
+nav a:visited,
+nav a:link {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+nav > ul {
+    display: inline;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 px;
+}
+
+main {
+    display: block;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%;
+}
+
+footer {
+    padding: 15px;
+}
+
+aside, article {
+    padding: 2em;
+}
+
+aside {
+    text-align: center;
+}
+
+article {
+    width: 75%
+}
+
+@media only screen and (min-width: 768) {
+    main {
+        display: flex;
+    }
+
+    aside {
+        margin-left: 2%;
+    }
+    
+#louisville {
+    float: left;
+    width: 50%;
+}
+    
+#hoptown {
+    float: right;
+    width: 50%;
+}
+
+}
