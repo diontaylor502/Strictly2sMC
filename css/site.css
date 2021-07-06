@@ -74,24 +74,3 @@ aside {
 article {
     width: 75%
 }
-
-@media only screen and (min-width: 768) {
-    main {
-        display: flex;
-    }
-
-    aside {
-        margin-left: 2%;
-    }
-    
-#louisville {
-    float: left;
-    width: 50%;
-}
-    
-#hoptown {
-    float: right;
-    width: 50%;
-}
-
-}
