@@ -76,4 +76,5 @@ article {
 }
 h1, h2, p, nav {
 text-align: center;
+padding: 20px;
 }
