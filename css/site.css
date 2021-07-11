@@ -74,7 +74,7 @@ aside {
 article {
     width: 75%
 }
-h1, h2, p, nav {
+h1, h2, h3, p, nav {
 text-align: center;
 padding: 15px;
 }
