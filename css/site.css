@@ -25,7 +25,7 @@ p {
     padding: 10px;
 }
 
-header{
+header, footer {
     display:block;
     position: right;
     top: 0;
@@ -73,4 +73,7 @@ aside {
 
 article {
     width: 75%
+}
+h1, h2, p, nav {
+text-align: center;
 }
