@@ -78,3 +78,47 @@ h1, h2, h3, p, nav {
 text-align: center;
 padding: 15px;
 }
+.mobile-container {
+    max-width: 425px;
+    margin: auto;
+    background-color:red;
+    height: 50px;
+    color: red;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color:red;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: lightgrey; /* text */
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: lightgrey;
+    color: black;
+  }
+  
+  .active {
+    background-color:red;
+    color: lightgrey;
+  }
