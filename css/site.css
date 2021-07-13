@@ -89,7 +89,7 @@ padding: 15px;
   
   .topnav {
     overflow: hidden;
-    background-color:red;
+    background-color:red; /* Drop down background color */
     position: relative;
   }
   
@@ -106,7 +106,7 @@ padding: 15px;
   }
   
   .topnav a.icon {
-    background: black;
+    background: black; /* Button background color */
     display: block;
     position: absolute;
     right: 0;
@@ -114,11 +114,11 @@ padding: 15px;
   }
   
   .topnav a:hover {
-    background-color: lightgrey;
-    color: black;
+    background-color: lightgrey; /* Button */
+    color: red; /* Active link text */
   }
   
   .active {
-    background-color:red;
-    color: lightgrey;
+    background-color:red; /* Navbar background color */
+    color: black;
   }
