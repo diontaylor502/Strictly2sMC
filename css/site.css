@@ -151,3 +151,15 @@ padding: 15px;
       display: none;
     }
   }
+  @media (min-width: 768px) {
+   
+    .mobile-container, .logoimg {
+     display: none;
+   } 
+   header, p {
+     background-color: black;
+   }
+   .body {
+     background-image: "photos/Strictly 2s PNG.png";
+   }
+  }
