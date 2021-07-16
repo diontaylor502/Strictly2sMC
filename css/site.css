@@ -141,3 +141,8 @@ padding: 15px;
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+  @media (max-width: 767.98px) {
+    h1 {
+      display: none;
+    }
+  }
