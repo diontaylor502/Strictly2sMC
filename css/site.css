@@ -13,9 +13,14 @@ body {
     background-color: black;
 }
 
-img {
+.navimg {
     width: 6%;
     height:6%;
+}
+
+.logoimg {
+  width: 100%;
+  height: 100%;
 }
 
 p {
@@ -106,7 +111,7 @@ padding: 15px;
   }
   
   .topnav a.icon {
-    background: black; /* Button background color */
+    background: lightgray; /* Button background color */
     display: block;
     position: absolute;
     right: 0;
