@@ -14,8 +14,8 @@ body {
 }
 
 img {
-    width: 100%;
-    height: 100%;
+    width: 6%;
+    height:6%;
 }
 
 p {
@@ -89,7 +89,7 @@ padding: 15px;
   
   .topnav {
     overflow: hidden;
-    background-color:red; /* Drop down background color */
+    background-color:black; /* Drop down background color */
     position: relative;
   }
   
