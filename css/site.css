@@ -30,15 +30,7 @@ p {
     padding: 10px;
 }
 
-header {
-    display:block;
-    position: right;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: red;
-    padding: 10px;
-}
+
 
 nav a:visited,
 nav a:link {
@@ -83,15 +75,7 @@ h1, h2, h3, p, nav {
 text-align: center;
 padding: 15px;
 }
-.mobile-container {
-    max-width: 425px;
-    margin: auto;
-    background-color:red;
-    height: 50px;
-    color: red;
-    border-radius: 10px;
-  }
-  
+
   .topnav {
     overflow: hidden;
     background-color:black; /* Drop down background color */
@@ -127,6 +111,7 @@ padding: 15px;
     background-color:red; /* Navbar background color */
     color: black;
   }
+  
   #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
