@@ -111,6 +111,9 @@ padding: 15px;
     background-color:red; /* Navbar background color */
     color: black;
   }
+  .navmenu {
+    display: none;
+  }
   
   #myBtn {
     display: none; /* Hidden by default */
