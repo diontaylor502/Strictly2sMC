@@ -107,10 +107,7 @@ padding: 15px;
     color: red; /* Active link text */
   }
   
-  .active {
-    background-color:red; /* Navbar background color */
-    color: black;
-  }
+
   .navmenu {
     display: none;
   }
