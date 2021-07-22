@@ -140,13 +140,22 @@ padding: 15px;
   }
   @media (min-width: 768px) {
    
-    .mobile-container, .logoimg {
+    .logoimg {
      display: none;
    } 
-   header, p {
+   header, p, ul{
      background-color: black;
    }
    body {
      background-image: url ("photos/Strictly 2s PNG.png");
    }
+
+   h2 {
+     background-color: red;
+   }
+
+   h3 {
+     background-color: lightgray;
+     color: red;
+
   }
