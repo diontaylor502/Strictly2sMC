@@ -137,6 +137,9 @@ padding: 15px;
     h1 {
       display: none;
     }
+    p , ul {
+      border-radius: 20px;
+    }
   }
   @media (min-width: 768px) {
    
