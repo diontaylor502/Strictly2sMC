@@ -159,4 +159,10 @@ padding: 15px;
      color: red;
     }
   }
-  
+  @media (min-width: 1024px) {
+
+  .mobile-container, .logoimg {
+    display: none;
+  }
+
+  }
