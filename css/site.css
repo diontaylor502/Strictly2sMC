@@ -30,7 +30,9 @@ p {
     padding: 10px;
 }
 
-
+ul {
+  background-color: red;
+}
 
 nav a:visited,
 nav a:link {
