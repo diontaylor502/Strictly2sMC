@@ -149,8 +149,8 @@ padding: 15px;
    header, p, ul{
      background-color: black;
    }
-   body {
-     background-image: url("photos/Strictly 2s PNG.png");
+   h1 {
+     background-image: url("/photos/Strictly 2s PNG.png");
    }
 
    h2 {
