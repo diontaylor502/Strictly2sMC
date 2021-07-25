@@ -154,6 +154,7 @@ padding: 15px;
      background-size: 161px;
      width: 100%;
      height: 135px;
+     font-size: 0;
    }
    
 
@@ -173,5 +174,11 @@ padding: 15px;
   .mobile-container, .logoimg {
     display: none;
   }
-
+  h1 {
+  background-image: url("/photos/Strictly 2s PNG.png");
+  background-size: 150px;
+  width: 100%;
+  height: 275px;
+  font-size: 0;
+  }
   }
