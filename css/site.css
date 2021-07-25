@@ -181,4 +181,8 @@ padding: 15px;
   height: 275px;
   font-size: 0;
   }
+  ul {
+    list-style: none;
+    text-align: center;
+  }
   }
