@@ -188,7 +188,7 @@ padding: 15px;
     list-style: none;
     text-align: center;
   }
-  .chapters {
-    display: flex;
+  .flex-container {
+    flex-wrap: wrap;
   }
   }
