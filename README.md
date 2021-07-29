@@ -4,7 +4,8 @@ This project is something that was near and dear to me. I created a Website for 
 
 CSS Feature
 
-I used a hamburger button that expands and collapses. 
+1. I used a hamburger button that expands and collapses.
+2. Flexbox is used to align text on desktop. 
 
 JavaScript Features List
 
