@@ -147,7 +147,7 @@ padding: 15px;
   @media (min-width: 768px) {
    
     .logoimg {
-     display: none;
+     display: flex;
    } 
    header, p, ul{
      background-color: black;
