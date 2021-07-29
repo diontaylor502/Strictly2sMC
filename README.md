@@ -11,4 +11,3 @@ JavaScript Features List
 
 1.	I used JavaScript to operate the hamburger button.
 2.	I made a return to the top button.
-1
