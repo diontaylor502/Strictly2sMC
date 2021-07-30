@@ -210,6 +210,22 @@ padding: 15px;
 
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.louisville {
+  padding: 10px;
+  
+}
+
+.hoptown {
+  padding: 10px;
+ flex: 50%;
+}
+
+.owensboro {
+  padding: 10px;
 }
 
 .flex-container > div {
