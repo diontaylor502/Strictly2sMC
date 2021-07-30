@@ -205,16 +205,39 @@ padding: 15px;
 
 .nav-desktop {
   display: flex;
-  flex-direction: row;
-}
+  flex-direction: column;
+  }
 .nav-desktop .nav-list {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   right: auto;
+  background-color: red;
+  font-size: 20px;
 }
 .nav-desktop .nav-list .item {
   padding-left: 20px;
+}
+
+.nav-list a {
+  color: lightgrey; /* text */
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.nav-list a.icon {
+  background: lightgray; /* Button background color */
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.nav-list a:hover {
+  background-color: lightgrey; /* Button */
+  color: red; /* Active link text */
 }
 
   .logoimg {
