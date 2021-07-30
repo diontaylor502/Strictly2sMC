@@ -5,7 +5,7 @@ This project is something that was near and dear to me. I created a Website for 
 CSS Feature
 
 1. I used a hamburger button that expands and collapses.
-2. Flexbox is used to align text on desktop. 
+2. Flexbox is used to align text from mobile to desktop. 
 
 JavaScript Features List
 
