@@ -54,6 +54,20 @@ nav > ul > li {
     margin: 0 5px 0 px;
 }
 
+.nav-desktop {
+  display: flex;
+  flex-direction: row;
+}
+.nav-desktop .nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  right: auto;
+}
+.nav-desktop .nav-list .item {
+  padding-left: 20px;
+}
+
 main {
     display: block;
     padding-top: 3em;
@@ -137,6 +151,11 @@ padding: 15px;
     background-color: #555; /* Add a dark-grey background on hover */
   }
   @media (max-width: 767.98px) {
+    
+    .nav-desktop{
+      display: none;
+    }
+    
     h1 {
       display: none;
     }
@@ -157,6 +176,10 @@ padding: 15px;
   }
   @media (min-width: 768px) {
    
+    .nav-desktop{
+      display: none;
+    }
+
     .logoimg {
      display: flex, center;
      width: 50%;
@@ -191,7 +214,7 @@ padding: 15px;
 
   .mobile-container {
     display: none;
-  }
+}
 
   .logoimg {
     display: flex, center;
